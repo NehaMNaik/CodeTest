@@ -1,5 +1,6 @@
-class Employee{
-private String firstName;
+public class Employee {
+
+  private String firstName;
 private String lastName;
 private String department;
 private String officeLocation;
@@ -10,8 +11,24 @@ public Employee(String firstName, String lastName, String department, String off
 this.firstName= firstName;
 this.lastName = lastName;
 this.department = department;
-this.officeLocation = ;
+this.officeLocation = officeLocation;
 this.designation = designation;
 this.salary = salary;
 }
+
+public String getDesignation() {
+  return this.designation;
+}
+
+public Double getSalary() {
+  return this.salary;
+}
+
+public String getOfficeLocation() {
+  return this.officeLocation;
+}
+
+
+
+
 }
